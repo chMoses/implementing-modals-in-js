@@ -1,0 +1,292 @@
+html, body  {
+    border: 0px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #fafafa;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.heading {
+    background-color: #94C43D;
+    color: black;
+    width: 136px;
+    height: 47px;
+    top: 33.78px;
+    left: 1204px;
+    border-radius: 6px;
+
+}
+/* This is for the body*/
+.image-with-text {
+    display: flex;
+    font: SF Pro Text;
+    
+  }
+  .image-with-text img {
+    margin-right: 10px; /* adjust as needed */
+    width: 809px;
+    height: 700px;
+    top: 113px;
+    gap: 10px;
+    padding-left: 2000;
+
+  }
+
+  /* This is for the things on the right*/
+  .prop {
+    text-align: left;
+
+  }
+
+
+
+
+
+
+
+
+
+
+  /*This is for the modal*/
+
+
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #94C43D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 229.87px;
+    height: 229.87px;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    left: 50%;
+   bottom: 800px; 
+   margin-left: 400px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 615px; /* Full width */
+    height: 893px; /* Full height */
+    overflow: visible; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    left: 1000px;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 893;
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .wrapper {
+    width: 152px;
+    height: 152px;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #21ac62;
+    width: 120px;
+    height: 120px;
+    animation: fill ease-in-out 3s;
+    transform: rotate(360deg);
+  }
+  
+  .wrapper {
+    background: url('Ellipse 200.png') center no-repeat;
+    background-size:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes fill{
+    0% {
+        clip-path: polygon(50% 0%, 50% 50%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+      }
+      12.5% {
+        clip-path: polygon(50% 0%, 50% 50%, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+      }
+      37.5% {
+        clip-path: polygon(50% 0%, 50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0%);
+      }
+      62.5% {
+        clip-path: polygon(50% 0%, 50% 50%, 0% 100%, 0% 100%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      87.5% {
+        clip-path: polygon(50% 0%, 50% 50%, 0% 0%, 0% 0%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      100% {
+        clip-path: polygon(50% 0%, 50% 50%, 50% 0%, 0% 0%, 0% 100%, 100% 100%, 100% 0%);
+      }
+}  
